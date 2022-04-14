@@ -50,7 +50,7 @@ a {
 
 button {
     border-radius: 20px;
-   border: whitesmoke solid 1px;
+    border: whitesmoke solid 1px;
     background: linear-gradient(90deg,rgb(212, 173, 173),rgb(68, 83, 179));
     color: #FFFFFF;
     font-size: 12px;
@@ -255,4 +255,14 @@ footer i {
 footer a {
     color: #3c97bf;
     text-decoration: none;
+}
+.Button-Back{
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid black 2px;
+  
+    margin-top: 20px;
+}
+.Button-Back input{
+    cursor: pointer;
 }
