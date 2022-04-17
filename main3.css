@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
     box-sizing: border-box;
@@ -65,6 +65,7 @@ button:active {
     transform: scale(0.95);
 }
 
+
 button:focus {
     outline: none;
 }
@@ -84,7 +85,6 @@ form {
     height: 100%;
     text-align: center;
 }
-
 input {
     background-color: #eee;
     border: none;
@@ -272,4 +272,162 @@ footer a {
 text-align: center;
 margin-top: -15px;
 margin-bottom: 5px;
+} */
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg,rgb(212, 173, 173),rgb(68, 83, 179));
+    height: 100vh;
+    overflow: hidden;
 }
+.wrapper{
+    width: 500px;
+    height: 450px;
+    background: #fff;
+    margin: 120px auto;
+    border-radius: 8px;
+    
+}
+.text{
+    margin-left: 150px;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 3px;
+    font-weight: bold  ;
+}
+
+h2{
+    font-size: 28px;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.wrapper .inPutFiled-username input,.inPutFiled-pass input{
+    
+    margin-left: 140px;
+    margin-bottom: 15px;
+   height: 35px;
+   width: 220px;
+    border-radius: 3px;
+    border: 1px silver solid;
+    padding-left: 15px;
+
+}
+.pass{
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+.wrapper .Login-button{
+  margin-left: 145px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 45%;
+    height: 35px;
+    transition: 0.5s ;
+    background: linear-gradient(90deg,rgb(214, 182, 182),rgb(123, 137, 225));
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-size: 200%;
+    cursor: pointer;
+text-transform: uppercase;
+}
+.wrapper button:hover{
+ background-position: right;
+}
+.signup2 {
+    background: linear-gradient(90deg,rgb(221, 184, 184),rgb(132, 145, 226));
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+  
+
+}
+
+
+.wrapper .signup{
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+    font-size: 18px;
+  
+}
+.signup i{
+    font-size: 13px;
+}
+.wrapper .signup a{
+    text-decoration: none;
+    color: white;
+    
+    text-transform: uppercase;
+    padding: 10px;
+    
+}
+.social{
+    text-align: center;
+   
+    
+  
+   
+}
+.social .Text-social{
+    font-size: 15px;
+   margin-top: 35px;
+   margin-bottom: 10px;
+}
+.social .social-list a{
+   padding: 10px;
+    color: black;
+    font-size: 22px;
+   
+   
+    
+    
+}
+.social .social-list a:hover{
+    color: grey;
+}
+.Button-Back {
+
+   border-radius: 5px;
+   text-align: center;
+   
+   cursor: pointer;
+   font-weight: bold;
+   padding: 5px;
+   margin-top: 18px;
+   
+}
+.Button-Back input{
+    margin-top: -25px;
+    border: solid black 2px;
+    border-radius: 2px;
+    padding: 5px;
+    background: linear-gradient(90deg,rgb(221, 184, 184),rgb(132, 145, 226));
+    border: none;
+    transition: 0.2s ease-in;
+    background-size: 200%;
+    cursor: pointer;
+
+}
+.Button-Back input:hover{
+    background-position: right;
+
+}
+.icon{
+    margin-top: 5px;
+}
+.logo img{  
+padding-top: 20px;
+  width: 220px;
+  margin-left: 570px;
+  margin-top: -30px;
+  margin-bottom: -100px;
+
+ }
